@@ -1,13 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <unistd.h>
-#include <fcntl.h>
-#include <dirent.h>
-#include <string.h>
-#include <time.h>
-#include <signal.h>
 #include <wiringPi.h>
-#include <errno.h>
 #include <wiringPiI2C.h>
 
 #include "MCP9600.h"
@@ -59,7 +51,7 @@ int MCP9600_Init(char adress, char type, int filter)
 				type = 0x07;
 				break;
 
-			default:
+			//default:
 
 			}
 
