@@ -7,7 +7,7 @@
 
 
 
-int MCP9600_Init(char adress, char type, int filter)
+int MCP9600_Init(char address, char type, int filter)
 {
    int fd;
 
